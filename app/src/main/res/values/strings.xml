@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Rock Paper Scissors</string>
+    <string name="my_score">my_score</string>
+    <string name="_0">0</string>
+    <string name="your_score">your_score</string>
+    <string name="imacompu">imaCompu</string>
+    <string name="rock_scissor_paper">rock_scissor_paper</string>
+    <string name="papelito">papelito</string>
+    <string name="piedra">piedra</string>
+    <string name="papel">papel</string>
+    <string name="tijeras">tijeras</string>
+</resources>
