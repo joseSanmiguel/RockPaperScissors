@@ -4,9 +4,9 @@
     <string name="_0">0</string>
     <string name="your_score">your_score</string>
     <string name="imacompu">imaCompu</string>
-    <string name="rock_scissor_paper">rock_scissor_paper</string>
     <string name="papelito">papelito</string>
     <string name="piedra">piedra</string>
     <string name="papel">papel</string>
     <string name="tijeras">tijeras</string>
+    <string name="touch_me_to_reset_scores">Touch me to Reset Scores</string>
 </resources>

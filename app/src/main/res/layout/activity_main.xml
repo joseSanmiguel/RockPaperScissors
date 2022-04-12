@@ -76,7 +76,7 @@
             android:layout_height="45dp"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
-            android:text="@string/rock_scissor_paper"
+            android:text="@string/touch_me_to_reset_scores"
             android:textSize="20sp" />
 
         <ImageView
