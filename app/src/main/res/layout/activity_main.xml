@@ -11,7 +11,7 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height= "wrap_content"
         android:gravity="center|top"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,7 +31,8 @@
                 android:layout_weight="1"
                 android:background="#3ED6EA"
                 android:fontFamily="sans-serif-black"
-                android:text="@string/my_score" />
+                android:text="@string/my_score"
+                android:textColor="#004D40" />
 
             <TextView
                 android:id="@+id/cValScore"
@@ -40,7 +41,8 @@
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-black"
                 android:gravity="center"
-                android:text="@string/_0" />
+                android:text="@string/_0"
+                android:textColor="#000000" />
 
             <TextView
                 android:id="@+id/uScore"
@@ -49,7 +51,8 @@
                 android:layout_weight="1"
                 android:background="#3ED6EA"
                 android:fontFamily="sans-serif-black"
-                android:text="@string/your_score" />
+                android:text="@string/your_score"
+                android:textColor="#004D40" />
 
             <TextView
                 android:id="@+id/uValScore"
@@ -58,7 +61,8 @@
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-black"
                 android:gravity="center"
-                android:text="@string/_0" />
+                android:text="@string/_0"
+                android:textColor="#000000" />
 
         </LinearLayout>
 
@@ -77,6 +81,7 @@
             android:fontFamily="sans-serif-black"
             android:gravity="center"
             android:text="@string/touch_me_to_reset_scores"
+            android:textColor="#263238"
             android:textSize="20sp" />
 
         <ImageView
@@ -89,7 +94,7 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="30dp" />
+            android:layout_height="40dp" />
 
         <LinearLayout
             android:id="@+id/linearLayoutHoriz"
@@ -131,6 +136,28 @@
 
         </LinearLayout>
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-5883565689761276/3668018743">
+
+        </com.google.android.gms.ads.AdView>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
