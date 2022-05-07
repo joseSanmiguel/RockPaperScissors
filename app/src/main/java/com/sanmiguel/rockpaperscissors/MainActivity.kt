@@ -96,6 +96,8 @@ class MainActivity : AppCompatActivity() {
         tvWin.setOnClickListener{
             uValScore.text = "0"
             cValScore.text = "0"
+            user = 0
+            compu = 0
             tvWin.text = "Touch me to Reset Scores"
         }
     }
